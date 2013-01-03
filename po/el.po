@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Era_of_Chaos-1.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-01-01 00:01-0500\n"
+"POT-Creation-Date: 2013-01-02 20:56-0500\n"
 "PO-Revision-Date: 2013-01-01 00:01-0500\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -18,12 +18,12 @@ msgid "Era of Chaos"
 msgstr ""
 
 #. [era]: id=Chaos+Aragwaihi
-#: Era_of_Chaos/eras.cfg:23
+#: Era_of_Chaos/eras.cfg:25
 msgid "Chaos + Aragwaithi"
 msgstr ""
 
 #. [era]: id=Chaos RPG Era
-#: Era_of_Chaos/eras.cfg:43
+#: Era_of_Chaos/eras.cfg:47
 msgid "Chaos RPG Era"
 msgstr ""
 
@@ -57,6 +57,13 @@ msgstr ""
 #. [multiplayer_side]: id=Sylvans-RPG, type=Elvish Acolyte
 #: Era_of_Chaos/factions/sylvans-rpg.cfg:4 Era_of_Chaos/factions/sylvans.cfg:4
 msgid "Sylvans"
+msgstr ""
+
+#. [multiplayer_side]: id=Vampires, type=Fledgeling
+#. [multiplayer_side]: id=Vampires, type=Vampire Noble
+#: Era_of_Chaos/factions/vampires-rpg.cfg:5
+#: Era_of_Chaos/factions/vampires.cfg:5
+msgid "Vampires"
 msgstr ""
 
 #. [multiplayer_side]: id=Wild_Humans, type=Wild Noble
@@ -155,8 +162,10 @@ msgstr ""
 #. [unit_type]: id=Biomechanical Crossbowman, race=shaxthal
 #. [unit_type]: id=Biomechanical Knight, race=shaxthal
 #. [unit_type]: id=Biomechanical Soldier, race=shaxthal
+#. [unit_type]: id=Blood Manipulator, race=vampire
 #. [unit_type]: id=Chaos Pillager, race=human
 #. [unit_type]: id=Dark Rider, race=human
+#. [unit_type]: id=Sangel, race=vampire
 #. [unit_type]: id=Wild Noble, race=human
 #. [unit_type]: id=Wild Soldier, race=human
 #. [unit_type]: id=Wolf_EoC, race=wolf
@@ -170,6 +179,8 @@ msgstr ""
 #: Era_of_Chaos/units/shaxthal/Bio_Crossbowman_Advanced.cfg:23
 #: Era_of_Chaos/units/shaxthal/Bio_Knight.cfg:26
 #: Era_of_Chaos/units/shaxthal/Bio_Soldier.cfg:28
+#: Era_of_Chaos/units/vampires/Blood_Manipulator.cfg:18
+#: Era_of_Chaos/units/vampires/Sangel.cfg:19
 msgid "..."
 msgstr ""
 
@@ -1718,8 +1729,10 @@ msgid ""
 "one is around."
 msgstr ""
 
+#. [unit_type]: id=Vampire Noble, race=vampire
 #. [unit_type]: id=Wild Noble, race=human
 #: Era_of_Chaos/units/human-wild/Noble.cfg:4
+#: Era_of_Chaos/units/vampires/Noble.cfg:5
 msgid "Noble"
 msgstr ""
 
@@ -1867,6 +1880,42 @@ msgid ""
 "Although they are rarely little more than a lesser annoyance in most "
 "situations, with time and proper raising, they can turn into real enemies, "
 "the medium-sized Imps."
+msgstr ""
+
+#. [unit_type]: id=Automaton, race=mechanical
+#: Era_of_Chaos/units/mechanical/Automaton.cfg:5
+msgid "Automaton"
+msgstr ""
+
+#. [unit_type]: id=Automaton, race=mechanical
+#: Era_of_Chaos/units/mechanical/Automaton.cfg:34
+msgid ""
+"These small metallic beings seem not to require food or water to fight, very "
+"much like the undead. Heavily armored and wielding a steel mace and "
+"rectangular shield, these ‘automatons’ are said to have been originally "
+"created to mine ore for the dwarvish clans. Their primary drawback is their "
+"apparent unease when navigating rough terrains such as hills and mountains."
+msgstr ""
+
+#. [attack]: type=impact
+#: Era_of_Chaos/units/mechanical/Automaton.cfg:51
+msgid "rectangular shield"
+msgstr ""
+
+#. [unit_type]: id=Goliath, race=mechanical, description=TODO
+#: Era_of_Chaos/units/mechanical/Goliath.cfg:5
+msgid "Mechanical Goliath"
+msgstr ""
+
+#. [attack]: type=impact
+#: Era_of_Chaos/units/mechanical/Goliath.cfg:51
+#: Era_of_Chaos/units/mechanical/Iron_Golem.cfg:50
+msgid "flash cannon"
+msgstr ""
+
+#. [unit_type]: id=Iron Golem, race=mechanical, description=TODO
+#: Era_of_Chaos/units/mechanical/Iron_Golem.cfg:5
+msgid "Iron Golem"
 msgstr ""
 
 #. [race]: id=shaxthal
@@ -2315,6 +2364,419 @@ msgid ""
 "fear and destruction."
 msgstr ""
 
+#. [unit_type]: id=Blood Apprentice, race=vampire
+#: Era_of_Chaos/units/vampires/Blood_Apprentice.cfg:5
+msgid "Blood Apprentice"
+msgstr ""
+
+#. [unit_type]: id=Blood Apprentice, race=vampire
+#: Era_of_Chaos/units/vampires/Blood_Apprentice.cfg:19
+msgid ""
+"Vampires always had a strong obsession with blood and control. As such, "
+"their magic typically involves blood, souls, and aura. These vampire mages "
+"attack their enemies by causing their blood to boil, or the mage will use "
+"their aura to disrupt their enemy's aura, thus being able to strike their "
+"soul. These mages' blood boiling magic works by causing the victim's aura to "
+"flare up, thus causing the victim's blood to boil. Since this magic works "
+"this way, it is able to damage the nonliving."
+msgstr ""
+
+#. [attack]: type=fire
+#: Era_of_Chaos/units/vampires/Blood_Apprentice.cfg:36
+#: Era_of_Chaos/units/vampires/Blood_Manipulator.cfg:38
+#: Era_of_Chaos/units/vampires/Flesh_Artisan.cfg:47
+#: Era_of_Chaos/units/vampires/Sangel.cfg:39
+msgid "blood boil"
+msgstr ""
+
+#. [attack]: type=arcane
+#: Era_of_Chaos/units/vampires/Blood_Apprentice.cfg:48
+#: Era_of_Chaos/units/vampires/Blood_Manipulator.cfg:50
+#: Era_of_Chaos/units/vampires/Sangel.cfg:51
+msgid "shadow wave"
+msgstr ""
+
+#. [unit_type]: id=Blood Hulk, race=vampire
+#: Era_of_Chaos/units/vampires/Blood_Hulk.cfg:5
+msgid "Blood Hulk"
+msgstr ""
+
+#. [unit_type]: id=Blood Hulk, race=vampire
+#: Era_of_Chaos/units/vampires/Blood_Hulk.cfg:21
+msgid ""
+"These monstrous vampires gorge themselves on the blood of their victims "
+"instead of turning them. Their appetite for blood is never sated, and with "
+"each victim they grow in strength and size. Only talented blood mages can "
+"create such monstrosities."
+msgstr ""
+
+#. [unit_type]: id=Blood Manipulator, race=vampire
+#: Era_of_Chaos/units/vampires/Blood_Manipulator.cfg:5
+msgid "Blood Manipulator"
+msgstr ""
+
+#. [unit_type]: id=Bloodborn, race=vampire
+#: Era_of_Chaos/units/vampires/Bloodborn.cfg:5
+msgid "Bloodborn"
+msgstr ""
+
+#. [unit_type]: id=Bloodborn, race=vampire
+#: Era_of_Chaos/units/vampires/Bloodborn.cfg:27
+msgid ""
+"Vampires do not bear many natural children. Most vampires are spawned by a "
+"bite from another vampire. The curses and strengths of vampires are spread "
+"as the vampire sucks the blood from his prey, and replaces it with magic. "
+"People new to the blood are made weak by it, and have not enough mastery "
+"over their mind to resist an order of the one who bit them. Eventualy, they "
+"will grow used to it, and learn how to use the strength it provides them, "
+"but until then they are much as oversized children."
+msgstr ""
+
+#. [female]
+#: Era_of_Chaos/units/vampires/Bloodborn.cfg:70
+msgid "female^Bloodborn"
+msgstr ""
+
+#. [unit_type]: id=Day Hunter, race=vampire
+#: Era_of_Chaos/units/vampires/Day_Hunter.cfg:5
+msgid "Day Hunter"
+msgstr ""
+
+#. [unit_type]: id=Day Hunter, race=vampire
+#: Era_of_Chaos/units/vampires/Day_Hunter.cfg:27
+msgid ""
+"After heading to the halfway point, a halfblood can choose to go back. They "
+"still have the strength given them by their vampire blood, but they have "
+"chosen light, and no longer desire blood. Many of them will still serve "
+"vampire lords, out of loyalty, and habit, and vampire lords rarely regret "
+"having them in their service."
+msgstr ""
+
+#. [female]
+#: Era_of_Chaos/units/vampires/Day_Hunter.cfg:72
+msgid "female^Day Hunter"
+msgstr ""
+
+#. [unit_type]: id=Duchess, race=vampire
+#: Era_of_Chaos/units/vampires/Duchess.cfg:5
+msgid "female^Duchess"
+msgstr ""
+
+#. [unit_type]: id=Duchess, race=vampire
+#: Era_of_Chaos/units/vampires/Duchess.cfg:22
+msgid ""
+"A Duchess is a powerful, yet elegant vampiress who is often the wife of a "
+"Methusalem. Eventhough a Duchess is feared for all the minions she "
+"controlls, she is capable of ravaging her enemies with her graceful "
+"swordsmanship and her dementing gaze; in addition she has a powerful bite. "
+"It is wise not to get in her way due to her dreadful power and the vast "
+"number of minions she controls."
+msgstr ""
+
+#. [attack]: type=arcane
+#: Era_of_Chaos/units/vampires/Duchess.cfg:53
+#: Era_of_Chaos/units/vampires/Methusalem.cfg:53
+#: Era_of_Chaos/units/vampires/Mistress.cfg:52
+#: Era_of_Chaos/units/vampires/Sire.cfg:52
+msgid "dementia gaze"
+msgstr ""
+
+#. [unit_type]: id=Vampire Duelist, race=vampire
+#: Era_of_Chaos/units/vampires/Duelist.cfg:5
+msgid "Duelist"
+msgstr ""
+
+#. [unit_type]: id=Vampire Duelist, race=vampire
+#: Era_of_Chaos/units/vampires/Duelist.cfg:21
+msgid ""
+"Vampires have always had a somewhat upper-class manner. This transfers over "
+"to their style of fighting too. The vampires without the family or "
+"leadership to become lords make themselves useful to a lord that can ensure "
+"they always have a fresh supply of blood. Those who do this are known as "
+"duelists. Their masters use them as guards and assassins. The wear not "
+"armor, but focus on rapid pinpoint fencing which they carry out with inhuman "
+"accuracy."
+msgstr ""
+
+#. [female]
+#: Era_of_Chaos/units/vampires/Duelist.cfg:146
+msgid "female^Duelist"
+msgstr ""
+
+#. [unit_type]: id=Fledgeling, race=vampire
+#: Era_of_Chaos/units/vampires/Fledgeling.cfg:5
+msgid "Fledgeling"
+msgstr ""
+
+#. [unit_type]: id=Fledgeling, race=vampire
+#: Era_of_Chaos/units/vampires/Fledgeling.cfg:22
+msgid ""
+"Most vampires are weak ones in service of the lords and more powerful ones, "
+"hoping and waiting that they will rise into a position of power for "
+"themselves. Until then they serve him in exchange for blood. When there are "
+"no more humans and half bloods, these vampires are the next most expendable "
+"thing a vampire lord has."
+msgstr ""
+
+#. [female]
+#: Era_of_Chaos/units/vampires/Fledgeling.cfg:111
+msgid "female^Fledgeling"
+msgstr ""
+
+#. [unit_type]: id=Flesh Artisan, race=vampire
+#: Era_of_Chaos/units/vampires/Flesh_Artisan.cfg:5
+msgid "Flesh Artisan"
+msgstr ""
+
+#. [unit_type]: id=Flesh Artisan, race=vampire
+#: Era_of_Chaos/units/vampires/Flesh_Artisan.cfg:21
+msgid ""
+"Some vampires who take up blood magic, decide that torture is much more "
+"satisfying than merely destroying. They neglect magic somewhat so that in "
+"addition to causing the blood to boil on the inside, they can master causing "
+"pain with claws and fangs, on the outside. In battle they can fight well "
+"with claws at close range, and magic at a distance."
+msgstr ""
+
+#. [unit_type]: id=Halfblood, race=vampire
+#: Era_of_Chaos/units/vampires/Half_Blood.cfg:5
+msgid "Halfblood"
+msgstr ""
+
+#. [unit_type]: id=Halfblood, race=vampire
+#: Era_of_Chaos/units/vampires/Half_Blood.cfg:26
+msgid ""
+"halfbloods vampire blood grows stronger as they kill. When they are balanced "
+"roughly evenly between both bloods, they are known as half bloods."
+msgstr ""
+
+#. [female]
+#: Era_of_Chaos/units/vampires/Half_Blood.cfg:106
+msgid "female^Halfblood"
+msgstr ""
+
+#. [unit_type]: id=Malborn, race=vampire
+#: Era_of_Chaos/units/vampires/Malborn.cfg:5
+msgid "Malborn"
+msgstr ""
+
+#. [unit_type]: id=Malborn, race=vampire
+#: Era_of_Chaos/units/vampires/Malborn.cfg:23
+msgid ""
+"Some people are simply to weak to handle the blood, and it leaves them a "
+"mindless mess. This gives the vampire lord complete control over what is "
+"left of them. Because of this control, the vampire lord is quite willing to "
+"arm these creatures with poisoned daggers. Unlike his other servents, these "
+"ones cannot rebel."
+msgstr ""
+
+#. [unit_type]: id=Methusalem, race=vampire
+#: Era_of_Chaos/units/vampires/Methusalem.cfg:5
+msgid "Methusalem"
+msgstr ""
+
+#. [unit_type]: id=Methusalem, race=vampire
+#: Era_of_Chaos/units/vampires/Methusalem.cfg:22
+msgid ""
+"You may only see one such vampire every thousand years, but when you do you "
+"know war is coming. These vampires have grown so old, and so powerful, that "
+"they believe it time to fill the vampire manifest destiny, and subject every "
+"other race. With their terrible power, charisma, and the promise of an "
+"eternity of free blood, they can gather the support of most vampire lords "
+"and lieges. Those who won't join them they destroy ruthlessly."
+msgstr ""
+
+#. [female]
+#. [unit_type]: id=Mistress, race=vampire
+#: Era_of_Chaos/units/vampires/Mistress.cfg:5
+#: Era_of_Chaos/units/vampires/Sire.cfg:165
+msgid "female^Mistress"
+msgstr ""
+
+#. [unit_type]: id=Mistress, race=vampire
+#: Era_of_Chaos/units/vampires/Mistress.cfg:21
+msgid ""
+"Some of the beautiful vampiresses who are as powerful as a Sire and are "
+"capable of winning the love of one are given the title of 'Mistress'. These "
+"vampiresses are capable of unleashing a world of pain and suffering upon "
+"their enemies with their twin daggers and their dementing gaze. The minions "
+"and mercenaries which serve her fight significantly better whenever they "
+"around her, sometimes it is unknown wether she is leading them or the "
+"mercenaries and minions are protecting her in order to protect themselves "
+"from the wrath of the Mistress' husband."
+msgstr ""
+
+#. [unit_type]: id=Vampire Noble, race=vampire
+#: Era_of_Chaos/units/vampires/Noble.cfg:21
+msgid ""
+"The vampires with family or leadership make themselves lord over whatever "
+"land they can hold. They use charm, terror, and ruthlessness to uphold their "
+"reign. They will surround themselves with their loyal vampires, whom they "
+"keep in check with the promise of continual blood, and subject any lesser "
+"creature to be the surfs of their society, and to provide blood or cannon-"
+"fodder in an emergency. They do not feed on them directly in most "
+"circumstances, because that tends to lead to rebellion, but rather force the "
+"surfs to provide animals for their weekly blood."
+msgstr ""
+
+#. [female]
+#: Era_of_Chaos/units/vampires/Noble.cfg:144
+msgid "female^Lady"
+msgstr ""
+
+#. [unit_type]: id=Sangel, race=vampire
+#: Era_of_Chaos/units/vampires/Sangel.cfg:5
+msgid "Sangel"
+msgstr ""
+
+#. [unit_type]: id=Sire, race=vampire
+#: Era_of_Chaos/units/vampires/Sire.cfg:5
+msgid "Sire"
+msgstr ""
+
+#. [unit_type]: id=Sire, race=vampire
+#: Era_of_Chaos/units/vampires/Sire.cfg:21
+msgid ""
+"Some vampires grow strong enough to subject other vampire lords to "
+"themselves. In exchange for protection (from whom is not always mentioned), "
+"the other lords provide a tithe of their tax to the Sire."
+msgstr ""
+
+#. [unit_type]: id=Sword Dancer, race=vampire
+#: Era_of_Chaos/units/vampires/Sword_Dancer.cfg:5
+msgid "Sword Dancer"
+msgstr ""
+
+#. [unit_type]: id=Sword Dancer, race=vampire
+#: Era_of_Chaos/units/vampires/Sword_Dancer.cfg:22
+msgid ""
+"Vampires live a long time, and have time to develop many social graces, "
+"including dance. Duelists who have spent extended amounts of time fighting, "
+"and dancing see similarities between the two, and combine them into a "
+"devastating and accurate form of fighting that cuts through defenses."
+msgstr ""
+
+#. [female]
+#: Era_of_Chaos/units/vampires/Sword_Dancer.cfg:147
+msgid "female^Sword Dancer"
+msgstr ""
+
+#. [unit_type]: id=Thinblood, race=vampire
+#: Era_of_Chaos/units/vampires/Thin_Blood.cfg:5
+msgid "Thinblood"
+msgstr ""
+
+#. [unit_type]: id=Thinblood, race=vampire
+#: Era_of_Chaos/units/vampires/Thin_Blood.cfg:27
+msgid ""
+"Not all bloodborn grow towards their vampire side. Some lean on the human "
+"side, and can stand the daylight, and use a bow, which most vampires disdain "
+"as a peasant weapon. However they still have the vampires curse of blood "
+"thirst on them, giving them a reason to continue to serve their lord. These "
+"qualities make them a valuable support for a vampires army."
+msgstr ""
+
+#. [female]
+#: Era_of_Chaos/units/vampires/Thin_Blood.cfg:107
+msgid "female^Thinblood"
+msgstr ""
+
+#. [unit_type]: id=Twilight Walker, race=vampire
+#: Era_of_Chaos/units/vampires/Twilight_Walker.cfg:5
+msgid "Twilight Walker"
+msgstr ""
+
+#. [unit_type]: id=Twilight Walker, race=vampire
+#: Era_of_Chaos/units/vampires/Twilight_Walker.cfg:27
+msgid ""
+"After reaching the halfway point, a halfblood can choose to go back, but "
+"many prefer not too. Those who don't are known as twilight walkers, and are "
+"among a lords most trusted servants, because they could have chosen day, but "
+"did not. As such they are often entrusted with poisons, and assassinations. "
+"For a vampire lord will always have enemies some of which are better slain "
+"with poison in the twilight, than with an army at night."
+msgstr ""
+
+#. [attack]: type=blade
+#: Era_of_Chaos/units/vampires/Twilight_Walker.cfg:32
+msgid "poisoned dagger"
+msgstr ""
+
+#. [female]
+#: Era_of_Chaos/units/vampires/Twilight_Walker.cfg:170
+msgid "female^Twilight Walker"
+msgstr ""
+
+#. [unit_type]: id=Fledgeling Bat
+#: Era_of_Chaos/units/vampires/Vampiric_Bats_L1.cfg:5
+msgid "Fledgeling (Bat)"
+msgstr ""
+
+#. [female]
+#: Era_of_Chaos/units/vampires/Vampiric_Bats_L1.cfg:20
+msgid "female^Fledgeling (Bat)"
+msgstr ""
+
+#. [unit_type]: id=Blood Manipulator Bat
+#: Era_of_Chaos/units/vampires/Vampiric_Bats_L2.cfg:5
+msgid "Blood Manipulator (Bat)"
+msgstr ""
+
+#. [unit_type]: id=Vampire Duelist Bat
+#: Era_of_Chaos/units/vampires/Vampiric_Bats_L2.cfg:27
+msgid "Duelist (Bat)"
+msgstr ""
+
+#. [female]
+#: Era_of_Chaos/units/vampires/Vampiric_Bats_L2.cfg:43
+msgid "female^Duelist (Bat)"
+msgstr ""
+
+#. [unit_type]: id=Vampire Noble Bat
+#: Era_of_Chaos/units/vampires/Vampiric_Bats_L2.cfg:52
+msgid "Noble (Bat)"
+msgstr ""
+
+#. [female]
+#: Era_of_Chaos/units/vampires/Vampiric_Bats_L2.cfg:68
+msgid "female^Noble (Bat)"
+msgstr ""
+
+#. [unit_type]: id=Sangel Bat
+#: Era_of_Chaos/units/vampires/Vampiric_Bats_L3.cfg:5
+msgid "Sangel (Bat)"
+msgstr ""
+
+#. [unit_type]: id=Sword Dancer Bat
+#: Era_of_Chaos/units/vampires/Vampiric_Bats_L3.cfg:25
+msgid "Sword Dancer (Bat)"
+msgstr ""
+
+#. [female]
+#: Era_of_Chaos/units/vampires/Vampiric_Bats_L3.cfg:39
+msgid "female^Sword Dancer (Bat)"
+msgstr ""
+
+#. [unit_type]: id=Sire Bat
+#: Era_of_Chaos/units/vampires/Vampiric_Bats_L3.cfg:48
+msgid "Sire (Bat)"
+msgstr ""
+
+#. [unit_type]: id=Mistress Bat
+#: Era_of_Chaos/units/vampires/Vampiric_Bats_L3.cfg:70
+msgid "female^Mistress (Bat)"
+msgstr ""
+
+#. [unit_type]: id=Methusalem Bat
+#: Era_of_Chaos/units/vampires/Vampiric_Bats_L4.cfg:5
+msgid "Methusalem (Bat)"
+msgstr ""
+
+#. [unit_type]: id=Duchess Bat
+#: Era_of_Chaos/units/vampires/Vampiric_Bats_L4.cfg:25
+msgid "female^Duchess (Bat)"
+msgstr ""
+
 #. [resistance]: id=protection
 #: Era_of_Chaos/utils/abilities.cfg:9
 msgid "protection"
@@ -2375,6 +2837,24 @@ msgid ""
 "otherwise (greater than or equals their remaining HP)."
 msgstr ""
 
+#. [set_menu_item]: id=vampire_transformation
+#: Era_of_Chaos/utils/abilities.cfg:320
+msgid "Transform This Unit"
+msgstr ""
+
+#. [dummy]: id=transformation
+#: Era_of_Chaos/utils/abilities.cfg:501
+msgid "transformation"
+msgstr ""
+
+#. [dummy]: id=transformation
+#: Era_of_Chaos/utils/abilities.cfg:502
+msgid ""
+"Transformation:\n"
+"This unit can transform into a bat. This bat will have the unit's current HP "
+"and XP."
+msgstr ""
+
 #: Era_of_Chaos/utils/special_notes.cfg:4
 msgid ""
 "This unit can protect those of level 0 and 1 around them, granting them "
@@ -2403,6 +2883,16 @@ msgstr ""
 msgid ""
 " This unit will instantly regenerate half of the damage deal on it with non-"
 "arcane attacks, unless it would otherwise kill it."
+msgstr ""
+
+#: Era_of_Chaos/utils/special_notes.cfg:19
+msgid ""
+" While defending this unit's counter attacks will always have at least 60% "
+"chance to hit."
+msgstr ""
+
+#: Era_of_Chaos/utils/special_notes.cfg:22
+msgid " Some of this unit’s attacks are only available during defense."
 msgstr ""
 
 #. [trait]: id=armored
@@ -2435,6 +2925,31 @@ msgstr ""
 msgid "Immune to drain, poison and plague"
 msgstr ""
 
+#. [trait]: id=vampire, description={STR_NONLIVING_DESCRIPTION}
+#: Era_of_Chaos/utils/traits.cfg:49
+msgid "vampire"
+msgstr ""
+
+#. [trait]: id=vampire, description={STR_NONLIVING_DESCRIPTION}
+#: Era_of_Chaos/utils/traits.cfg:50
+msgid "female^vampire"
+msgstr ""
+
+#. [trait]: id=obedient
+#: Era_of_Chaos/utils/traits.cfg:62
+msgid "obedient"
+msgstr ""
+
+#. [trait]: id=obedient
+#: Era_of_Chaos/utils/traits.cfg:63
+msgid "female^obedient"
+msgstr ""
+
+#. [trait]: id=obedient
+#: Era_of_Chaos/utils/traits.cfg:64
+msgid "Zero upkeep"
+msgstr ""
+
 #. [damage]: id=dread
 #: Era_of_Chaos/utils/weapon_specials.cfg:6
 #: Era_of_Chaos/utils/weapon_specials.cfg:7
@@ -2442,44 +2957,73 @@ msgid "dread"
 msgstr ""
 
 #. [damage]: id=dread
-#: Era_of_Chaos/utils/weapon_specials.cfg:9
+#: Era_of_Chaos/utils/weapon_specials.cfg:8
 #: Era_of_Chaos/utils/weapon_specials.cfg:10
 msgid ""
-"When used offensively, this attack causes enemy units to deal 20% less "
-"damage in retaliation."
+"Dread:\n"
+"When this attack is used offensively, this unit takes one third less damage "
+"in retaliation."
+msgstr ""
+
+#. [chance_to_hit]: id=counter
+#: Era_of_Chaos/utils/weapon_specials.cfg:21
+#: Era_of_Chaos/utils/weapon_specials.cfg:24
+msgid "counter"
+msgstr ""
+
+#. [chance_to_hit]: id=counter
+#: Era_of_Chaos/utils/weapon_specials.cfg:22
+#: Era_of_Chaos/utils/weapon_specials.cfg:25
+msgid ""
+"Counter:\n"
+"When used defensively, this attack always has at least a 60% chance to hit."
 msgstr ""
 
 #. [berserk]: id=fury
-#: Era_of_Chaos/utils/weapon_specials.cfg:19
+#: Era_of_Chaos/utils/weapon_specials.cfg:35
 msgid "fury"
 msgstr ""
 
 #. [berserk]: id=fury
-#: Era_of_Chaos/utils/weapon_specials.cfg:20
+#: Era_of_Chaos/utils/weapon_specials.cfg:36
 msgid ""
 "When used offensively, this attack presses the engagement until one of the "
 "combatants is slain, or 3 rounds of attacks have occurred."
 msgstr ""
 
 #. [chance_to_hit]: id=enchanted
-#: Era_of_Chaos/utils/weapon_specials.cfg:29
+#: Era_of_Chaos/utils/weapon_specials.cfg:45
 msgid "enchanted"
 msgstr ""
 
 #. [chance_to_hit]: id=enchanted
-#: Era_of_Chaos/utils/weapon_specials.cfg:30
+#: Era_of_Chaos/utils/weapon_specials.cfg:46
 msgid ""
 "This attack always has a 60% chance to hit regardless of the defensive "
 "ability of the unit being attacked."
 msgstr ""
 
 #. [chance_to_hit]: id=precision
-#: Era_of_Chaos/utils/weapon_specials.cfg:39
+#: Era_of_Chaos/utils/weapon_specials.cfg:55
 msgid "precision"
 msgstr ""
 
 #. [chance_to_hit]: id=precision
-#: Era_of_Chaos/utils/weapon_specials.cfg:40
+#: Era_of_Chaos/utils/weapon_specials.cfg:56
 msgid ""
 "When used offensively, this attack always has at least a 50% chance to hit."
+msgstr ""
+
+#. [damage]: id=attack_only
+#: Era_of_Chaos/utils/weapon_specials.cfg:66
+#: Era_of_Chaos/utils/weapon_specials.cfg:67
+msgid "defend only"
+msgstr ""
+
+#. [damage]: id=attack_only
+#: Era_of_Chaos/utils/weapon_specials.cfg:68
+#: Era_of_Chaos/utils/weapon_specials.cfg:70
+msgid ""
+"Defend Only:\n"
+"This weapon will only be available for defense."
 msgstr ""
