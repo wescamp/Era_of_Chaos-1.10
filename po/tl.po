@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Era_of_Chaos-1.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-01-02 20:56-0500\n"
+"POT-Creation-Date: 2013-01-10 00:44-0500\n"
 "PO-Revision-Date: 2013-01-01 00:01-0500\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -17,13 +17,19 @@ msgid "Era of Chaos"
 msgstr ""
 
 #. [era]: id=Chaos+Aragwaihi
-#: Era_of_Chaos/eras.cfg:25
+#: Era_of_Chaos/eras.cfg:26
 msgid "Chaos + Aragwaithi"
 msgstr ""
 
 #. [era]: id=Chaos RPG Era
-#: Era_of_Chaos/eras.cfg:47
+#: Era_of_Chaos/eras.cfg:49
 msgid "Chaos RPG Era"
+msgstr ""
+
+#. [multiplayer_side]: id=Dwarves, type=Dwarvish Fighter
+#. [multiplayer_side]: id=Dwarves, type=Dwarvish Runesmith_EoC
+#: Era_of_Chaos/factions/dwarves-rpg.cfg:4 Era_of_Chaos/factions/dwarves.cfg:4
+msgid "Dwarves"
 msgstr ""
 
 #. [multiplayer_side]: id=Imperials, type=Chaos Magus
@@ -494,6 +500,125 @@ msgstr ""
 msgid "female^Demoness Zephyr"
 msgstr ""
 
+#. [unit_type]: id=Dwarvish Arblaster, race=dwarf, description=TODO
+#: Era_of_Chaos/units/dwarves/Arblaster.cfg:4
+msgid "Dwarvish Arblaster"
+msgstr ""
+
+#. [unit_type]: id=Dwarvish Commander, race=dwarf, description=TODO
+#: Era_of_Chaos/units/dwarves/Commander.cfg:4
+msgid "Dwarvish Commander"
+msgstr ""
+
+#. [attack]: type=impact
+#: Era_of_Chaos/units/dwarves/Commander.cfg:31
+#: Era_of_Chaos/units/dwarves/Smith.cfg:25
+#: Era_of_Chaos/units/dwarves/Soldier.cfg:25
+msgid "hammer"
+msgstr ""
+
+#. [attack]: type=pierce
+#: Era_of_Chaos/units/dwarves/Commander.cfg:40
+#: Era_of_Chaos/units/dwarves/Smith.cfg:34
+#: Era_of_Chaos/units/dwarves/Soldier.cfg:34
+msgid "thunderstick"
+msgstr ""
+
+#. [unit_type]: id=Dwarvish Compounder, race=dwarf, description=TODO
+#: Era_of_Chaos/units/dwarves/Compounder.cfg:4
+msgid "Dwarvish Compounder"
+msgstr ""
+
+#. [unit_type]: id=Dwarvish Crossbowman, race=dwarf
+#: Era_of_Chaos/units/dwarves/Crossbowman.cfg:4
+msgid "Dwarvish Crossbowman"
+msgstr ""
+
+#. [unit_type]: id=Dwarvish Crossbowman, race=dwarf
+#: Era_of_Chaos/units/dwarves/Crossbowman.cfg:24
+msgid ""
+"Even though thundersticks are usually the better weapon, some dwarves like "
+"to use the crossbow. Because the crossbow is a faster reloading, lighter "
+"weapon, they can be more mobile, while still retaining high lethality at a "
+"distance."
+msgstr ""
+
+#. [unit_type]: id=Dwarvish Flamethrower, race=dwarf
+#: Era_of_Chaos/units/dwarves/Flamethrower.cfg:4
+msgid "Dwarvish Flamethrower"
+msgstr ""
+
+#. [unit_type]: id=Dwarvish Flamethrower, race=dwarf
+#: Era_of_Chaos/units/dwarves/Flamethrower.cfg:20
+msgid ""
+"It is said that the Dwarven Flamethrowers have strange staves of wood and "
+"iron, similar to those of the Thunderguards; but instead of making a "
+"thunderous noise shooting a projectile, their weapon generates a continuous "
+"tongue of flame."
+msgstr ""
+
+#. [attack]: type=pierce
+#: Era_of_Chaos/units/dwarves/Flamethrower.cfg:35
+msgid "firestick"
+msgstr ""
+
+#. [unit_type]: id=Dwarvish Gyrocopter, race=dwarf
+#: Era_of_Chaos/units/dwarves/Gyrocopter.cfg:5
+msgid "Gyrocopter"
+msgstr ""
+
+#. [unit_type]: id=Dwarvish Gyrocopter, race=dwarf
+#: Era_of_Chaos/units/dwarves/Gyrocopter.cfg:21
+msgid ""
+"Some dwarves have crafted strange vehicles which they call ‘Gyrocopters’. "
+"Capable of flight, they need space to maneuver, thus they cannot be used "
+"underground. These machines are hard to control and are not suited for close "
+"combat; instead, their drivers throw strange eggs they call ‘bombs’, that "
+"explode with the sound of thunder. Noone knows what strange beast lays such "
+"eggs."
+msgstr ""
+
+#. [attack]: type=impact
+#: Era_of_Chaos/units/dwarves/Gyrocopter.cfg:116
+#: Era_of_Chaos/units/dwarves/Steamcopter.cfg:116
+msgid "bombs"
+msgstr ""
+
+#. [unit_type]: id=Dwarvish Repeater, race=dwarf
+#: Era_of_Chaos/units/dwarves/Repeater.cfg:4
+msgid "Dwarvish Repeater"
+msgstr ""
+
+#. [unit_type]: id=Dwarvish Repeater, race=dwarf
+#: Era_of_Chaos/units/dwarves/Repeater.cfg:24
+msgid ""
+"Many have speculated about the mysterious devices or magicks that allow "
+"dwarves to fire these weapons as fast as elves can fire their bows. Whatever "
+"the cause, the result is an instrument that spews death at a terrifying rate."
+msgstr ""
+
+#. [unit_type]: id=Dwarvish Smith, race=dwarf, description=TODO
+#: Era_of_Chaos/units/dwarves/Smith.cfg:4
+msgid "Dwarvish Smith"
+msgstr ""
+
+#. [unit_type]: id=Dwarvish Soldier, race=dwarf, description=TODO
+#: Era_of_Chaos/units/dwarves/Soldier.cfg:4
+msgid "Dwarvish Soldier"
+msgstr ""
+
+#. [unit_type]: id=Dwarvish Steamcopter, race=dwarf
+#: Era_of_Chaos/units/dwarves/Steamcopter.cfg:5
+msgid "Steamcopter"
+msgstr ""
+
+#. [unit_type]: id=Dwarvish Steamcopter, race=dwarf
+#: Era_of_Chaos/units/dwarves/Steamcopter.cfg:21
+msgid ""
+"With the aid of steam genies, Steamcopters are able to move faster and carry "
+"more bombs than Gyrocopters."
+msgstr ""
+
 #. [unit_type]: id=Quenoth Archer, race=elf
 #: Era_of_Chaos/units/elves-quenoth/Archer.cfg:5
 msgid "Quenoth Archer"
@@ -514,18 +639,22 @@ msgstr ""
 #: Era_of_Chaos/units/elves-quenoth/Captain.cfg:34
 #: Era_of_Chaos/units/elves-quenoth/Champion.cfg:23
 #: Era_of_Chaos/units/elves-quenoth/Fighter.cfg:22
+#: Era_of_Chaos/units/elves-quenoth/Guard.cfg:27
 #: Era_of_Chaos/units/elves-quenoth/Hero.cfg:22
 #: Era_of_Chaos/units/elves-quenoth/Horseman.cfg:38
 #: Era_of_Chaos/units/elves-quenoth/Hunter.cfg:25
 #: Era_of_Chaos/units/elves-quenoth/Marksman.cfg:22
 #: Era_of_Chaos/units/elves-quenoth/Marshal.cfg:33
 #: Era_of_Chaos/units/elves-quenoth/Outrider.cfg:33
+#: Era_of_Chaos/units/elves-quenoth/Protector.cfg:31
 #: Era_of_Chaos/units/elves-quenoth/Prowler.cfg:27
 #: Era_of_Chaos/units/elves-quenoth/Ranger.cfg:33
 #: Era_of_Chaos/units/elves-quenoth/Rider.cfg:32
 #: Era_of_Chaos/units/elves-quenoth/Scout.cfg:31
 #: Era_of_Chaos/units/elves-quenoth/Sentinel.cfg:26
 #: Era_of_Chaos/units/elves-quenoth/Sharpshooter.cfg:23
+#: Era_of_Chaos/units/elves-quenoth/Swordsmaster.cfg:34
+#: Era_of_Chaos/units/elves-quenoth/Warrior.cfg:33
 msgid "sword"
 msgstr ""
 
@@ -641,6 +770,19 @@ msgid ""
 "archery."
 msgstr ""
 
+#. [unit_type]: id=Quenoth Guard, race=elf, description=TODO
+#: Era_of_Chaos/units/elves-quenoth/Guard.cfg:5
+msgid "Quenoth Guard"
+msgstr ""
+
+#. [attack]: type=impact
+#: Era_of_Chaos/units/elves-quenoth/Guard.cfg:36
+#: Era_of_Chaos/units/elves-quenoth/Protector.cfg:40
+#: Era_of_Chaos/units/human-chaos/Chaos_Doom_Guard.cfg:35
+#: Era_of_Chaos/units/human-chaos/Chaos_Hell_Guardian.cfg:36
+msgid "shield"
+msgstr ""
+
 #. [unit_type]: id=Quenoth Hero, race=elf
 #: Era_of_Chaos/units/elves-quenoth/Hero.cfg:5
 msgid "Quenoth Hero"
@@ -746,6 +888,11 @@ msgid ""
 "strike at weaker units and exposed flanks. Skilled in the sword, and trained "
 "in the bow, they strike hard before flying off into the sands to evade "
 "response."
+msgstr ""
+
+#. [unit_type]: id=Quenoth Protector, race=elf, description=TODO
+#: Era_of_Chaos/units/elves-quenoth/Protector.cfg:5
+msgid "Quenoth Protector"
 msgstr ""
 
 #. [unit_type]: id=Quenoth Prowler, race=elf
@@ -911,6 +1058,16 @@ msgstr ""
 #: Era_of_Chaos/units/elves-quenoth/Star.cfg:38
 msgid ""
 "SPECIAL_NOTE^ This unit gains a 10% bonus to resistance from all attacks."
+msgstr ""
+
+#. [unit_type]: id=Quenoth Swordsmaster, race=elf, description=TODO
+#: Era_of_Chaos/units/elves-quenoth/Swordsmaster.cfg:5
+msgid "Quenoth Swordsmaster"
+msgstr ""
+
+#. [unit_type]: id=Quenoth Warrior, race=elf, description=TODO
+#: Era_of_Chaos/units/elves-quenoth/Warrior.cfg:5
+msgid "Quenoth Warrior"
 msgstr ""
 
 #. [unit_type]: id=Elvish Acolyte, race=elf
@@ -1296,12 +1453,6 @@ msgid ""
 "Devoid of bloodlust, their aggression is changed into fanatic loyalty. Doom "
 "Guards are not the ones to fight, they are the ones to stand against every "
 "possible enemy, until they are wounded enough to die instantly."
-msgstr ""
-
-#. [attack]: type=impact
-#: Era_of_Chaos/units/human-chaos/Chaos_Doom_Guard.cfg:35
-#: Era_of_Chaos/units/human-chaos/Chaos_Hell_Guardian.cfg:36
-msgid "shield"
 msgstr ""
 
 #. [unit_type]: id=Chaos Gunner, race=human, description=
@@ -1887,7 +2038,7 @@ msgid "Automaton"
 msgstr ""
 
 #. [unit_type]: id=Automaton, race=mechanical
-#: Era_of_Chaos/units/mechanical/Automaton.cfg:34
+#: Era_of_Chaos/units/mechanical/Automaton.cfg:38
 msgid ""
 "These small metallic beings seem not to require food or water to fight, very "
 "much like the undead. Heavily armored and wielding a steel mace and "
@@ -1897,7 +2048,7 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=impact
-#: Era_of_Chaos/units/mechanical/Automaton.cfg:51
+#: Era_of_Chaos/units/mechanical/Automaton.cfg:55
 msgid "rectangular shield"
 msgstr ""
 
@@ -1907,8 +2058,8 @@ msgid "Mechanical Goliath"
 msgstr ""
 
 #. [attack]: type=impact
-#: Era_of_Chaos/units/mechanical/Goliath.cfg:51
-#: Era_of_Chaos/units/mechanical/Iron_Golem.cfg:50
+#: Era_of_Chaos/units/mechanical/Goliath.cfg:55
+#: Era_of_Chaos/units/mechanical/Iron_Golem.cfg:54
 msgid "flash cannon"
 msgstr ""
 
@@ -2361,6 +2512,84 @@ msgid ""
 "Once great warriors thundering across the plains, these mounted riders atop "
 "their skeletal horses were raised from the grave by unholy magic to spread "
 "fear and destruction."
+msgstr ""
+
+#: Era_of_Chaos/units/vampires.cfg:5
+msgid ""
+"Abel,Aleron,Aldon,Altair,Alumit,Amaia,Amarande,Ambrose,Amdis,Andros,Ashling,"
+"Athan,Bakarne,Bela,Beval,Bian,Blaine,Braeden,Brandeis,Brendan,Brone,Bronwen,"
+"Carden,Cian,Corbin,Damalis,Damian,Danton,Daray,Delano,Donn,Dunkan,Eamen,"
+"Gustaff,Heath,Heathcliff,Ingrum,Jareth,Kaevan,Karayan,Kern,Kieran,Lucine,"
+"Marlin,Nelo,Parris,Raven,Rune,Savan,Sumnor,Tainn,Tariq,Tristram,Vega,Wynn,"
+"Lestat,Louis,Armand,Amadeo,Santiago,Marius,Magnus,David,Enkil,Mael,Santino,"
+"Vittorio,Thorne,Avicus,Felix,Laurent,Daniel,Khayman,Tarquin,Quinn,Vladimir,"
+"Vlad,Ansel,Anwar,Arden,Ashe,Ashford,Ashlin,Bairde,Barnabas,Bentley,Brishen,"
+"Connor,Crevan,Dante,Flynne,Gavin,Hewitt,Holt,Jacy,Jolon,Kasch,Lucyan,Morgyn,"
+"Pembroke,Quillan,Quinn,Riordin,Rowan,Sylvain,Taban,Teague,Wendell"
+msgstr ""
+
+#: Era_of_Chaos/units/vampires.cfg:6
+msgid ""
+"Aislinn,Alana,Alaura,Aleta,Alethea,Alma,Amaris,Amaryllis,Amaya,Ambrosine,"
+"Araxie,Ariana,Autumn,Badria,Blythe,Brenna,Busana,Cascata,Celine,Ceridwen,"
+"Chandra,Damarys,Denisha,Devin,Erela,Fala,Fanya,Hazelle,Isadora,Iva,Javan,"
+"Jenessa,Jora,Jordyn,Jovana,Kamalia,Kalyca,Kavindra,Kestrel,Kynthia,Laqueta,"
+"Layla,Leandra,Leigh,Livana,Naida,Neesha,Nevada,Oleta,Parkyr,Philomina,"
+"Pyralis,Rayne,Risa,Rosalia,Salena,Seda,Shahar,Shea,Silva,Silvana,Tabitha,"
+"Tacita,Tara,Tatiana,Tayce,Vala,Valonia,Vesta,Vidonia,Waneta,Wyntir,Yepa,"
+"Yolanda,Yoninah,Zyta,Adara,Adena,Adrianne,Alarice,Alvita,Amara,Ambika,"
+"Antonia,Araceli,Balandria,Basha,Beryl,Bryn,Callia,Caryssa,Cassandra,"
+"Casondrah,Chatha,Ciara,Cynara,Cytheria,Dabria,Darcei,Deandra,Deirdre,Delores,"
+"Desdomna,Devi,Drucilla,Duvessa,Fantine,Fuscienne,Gabi,Gallia,Hanna,Hedda,"
+"Jerica,Jetta,Joby,Kacila,Kala,Kallie,Keelia,Killian,Kory,Lilith,Lucretia,"
+"Lysha,Mercedes,Mia,Maura,Perdita,Quella,Riona,Safiya,Salina,Severin,Sidonia,"
+"Sirena,Solita,Tempest,Thea,Treva,Trista,Vala,Winta"
+msgstr ""
+
+#. [race]: id=vampire
+#: Era_of_Chaos/units/vampires.cfg:13
+msgid "race^Vampire"
+msgstr ""
+
+#. [race]: id=vampire
+#: Era_of_Chaos/units/vampires.cfg:14
+msgid "race+female^Vampiress"
+msgstr ""
+
+#. [race]: id=vampire
+#: Era_of_Chaos/units/vampires.cfg:15
+msgid "race^Vampires"
+msgstr ""
+
+#. [race]: id=vampire
+#: Era_of_Chaos/units/vampires.cfg:16
+msgid ""
+"The term 'vampire' is a word in an ancient dialect of the human language "
+"that would mean 'corrupted blood' in the modern tongue. In reality, vampires "
+"are not of a totally different race, but are the result of when a living "
+"creature's blood is corrupted by a very powerful, arcane type of magic. All "
+"vampires have red glowing eyes, white hair, pale skin, long fangs, and a "
+"craving for the blood of other living creatures. In addition, this magic has "
+"an effect on the creature so that it becomes similar to an undead creature; "
+"therefore necromancy, poison, and abilities that drain will have no effect "
+"on a vampire. Some of the more powerful vampires even have the ability to "
+"transform into bats. Due to all of this, vampires are often classified as a "
+"different race.\n"
+"\n"
+"As vampires have a strong craving for blood, they usually overwhelm an "
+"already existing society mainly composed of living creatures, and build a "
+"monarchy or an oligarchy over it; the living members of the society would be "
+"subservient to the local vampires, and annually, five dozen of those members "
+"would be sacrificed to the vampire population. Due to this practice, the "
+"vampiric overlords encourage the subservient population to reproduce in "
+"great numbers so that the number of members of the subservient population "
+"remains plentiful. In return for compliance, the participating families get "
+"a somewhat higher place in society. These societies work for two reasons, "
+"one because of the threat the vampires present; two, the subservient members "
+"benefit from this setup.\n"
+"\n"
+"Since blood is a very important part of vampire society, it is used as their "
+"currency. Also, blood is often involved in their magic."
 msgstr ""
 
 #. [unit_type]: id=Blood Apprentice, race=vampire
